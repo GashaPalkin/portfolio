@@ -1,0 +1,177 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
+
+
+.
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+	.carousel-caption {
+  bottom: 15%;
+  text-shadow: none;
+}
+  
+ .carousel-caption {
+  left: 5%;
+  padding-bottom: 30px;
+  right: 5%;
+}
+
+  .gp {
+  color: white;
+  font-size: 55px;
+}
+
+  .carousel-caption h1 {
+  color: #fff;
+  font-size: 28px;
+  margin: 10px 0;
+  padding: 0;
+}
+
+  .carousel-caption .intro-text {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+		.carousel-caption {
+  bottom: 8%;
+  text-shadow: none;
+}
+
+ .carousel-caption {
+  left: 5%;
+  padding-bottom: 30px;
+  right: 5%;
+}
+
+  .gp {
+  color: white;
+  font-size: 60px;
+}
+
+  .carousel-caption h1 {
+  color: #fff;
+  font-size: 30px;
+  margin: 10px 0;
+  padding: 0;
+}
+
+  .carousel-caption .intro-text {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 40px;
+  padding: 0;
+}
+
+  .mouse {
+    display: none;
+  }
+
+  .about p {
+    font-size: 15px;
+
+  }
+  .about .container {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+   .about .row {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .about {
+
+  padding: 10px;
+  }
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 769px) {
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+/*Xtra large*/
+
+@media only screen and (min-width : 1800px) {
+
+
+
+}
